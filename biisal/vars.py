@@ -12,7 +12,7 @@ bisal_grp = "https://t.me/+dby5msMqTOBjMGU1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '1947565279')
+    API_ID = int(getenv('API_ID', '1947565279'))
     API_HASH = str(getenv('API_HASH', '9744c99858433c55c279cce6827d36a4'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6702817700:AAGuIyq8DTILFJSJ91HVa56iSdgHTkt-oRI'))
     name = str(getenv('name', 'FiletolinkCBbot'))
